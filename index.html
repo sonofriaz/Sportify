@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+
+            </div>
+            <div class="library ">
+                <div class="options nav-option">
+                    <div class="lib-option">
+                        <img src="./assets/library_icon.png" alt="library_icon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2">It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                </div>
+
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">we'll keep you updated on new eposides</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-icons">
+                    <img src="./assets/backward_icon.png" alt="backward_icon">
+                    <img src="./assets/forward_icon.png" alt="forward_icon" class="hide">
+                </div>
+
+                <div class="sticky-nav-options">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down"
+                            style="margin-right: 5px;"></i>Install
+                        App</button>
+                    <i class="fa-regular fa-user nav-item"></i>
+                </div>
+
+
+            </div>
+
+            <h2>Rencently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assets/pic-1.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Pakistani Pop</p>
+                    <p class="card-info">Trending Pop Hits in Pakistan.</p>
+                </div>
+            </div>
+            <br><br>
+
+
+            <h2>More Like Pakistani Pop</h2>
+            <div class="cards-container">
+                <div class="card-sec">
+                    <img src="./assets/asset 3.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Desi Indie</p>
+                    <p class="card-info">Home to the Best of South Asian Indie.</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 4.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Pakistani Indie Rising</p>
+                    <p class="card-info">Pakistani indies tracks on the rise. like this?</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 5.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Bas vibes</p>
+                    <p class="card-info">Yeh tau sab khaa gaye aur tukray bhi nahi... </p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 6.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Pakistani Indie 101</p>
+                    <p class="card-info">Explore Pakistani thriving independent...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 7.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Strickly Chill</p>
+                    <p class="card-info">Vibe to the best of Pakistani instrumental..</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 8.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Loadshedding Longings</p>
+                    <p class="card-info">Pakistani songs to get you through the power...</p>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <h2>Today's biggest hits</h2>
+            <div class="cards-container">
+                <div class="card-sec">
+                    <img src="./assets/asset 9.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 10.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 11.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 12.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 13.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 14.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+            </div>
+
+            <br><br>
+
+
+            <h2>More Like Abdul Hannan</h2>
+            <div class="cards-container">
+                <div class="card-sec">
+                    <img src="./assets/asset 15.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Kismat</p>
+                    <p class="card-info">Rovalio, HASHAM </p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 16.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Parwana</p>
+                    <p class="card-info">Izzchuhgtai</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 17.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Sar Phira</p>
+                    <p class="card-info">Hassan Raheem, Abdullah Kasumbi</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 18.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Cheese</p>
+                    <p class="card-info">ChilliBazar, Marshell Ahmed, Izzchuhgtai</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 19.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">HASHAM</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 20.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Amna Riaz</p>
+                    <p class="card-info">Artist</p>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card-sec">
+                    <img src="./assets/asset 32.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top Songs - Global </p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 33.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top Songs-Pakistan</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 34.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Global </p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 35.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Top 50 - Pakistan</p>
+                    <p class="card-info">ChilliBazar, Marshell Ahmed, Izzchuhgtai</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 36.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Viral 50-Global</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 37.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Viral 50-Pakistan</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <h2>Mood</h2>
+            <div class="cards-container">
+                <div class="card-sec">
+                    <img src="./assets/asset 54.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Peaceful Piano </p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 55.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Sad hour</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 56.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Positive vibes </p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 57.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Lofi beats</p>
+                    <p class="card-info">ChilliBazar, Marshell Ahmed, Izzchuhgtai</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 58.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Life Sucks</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+                <div class="card-sec">
+                    <img src="./assets/asset 59.jpeg" alt="banner" class="card-img">
+                    <p class="card-title">Chill Hits</p>
+                    <p class="card-info">Your weekly update of the most played Traffic</p>
+                </div>
+
+            </div>
+
+            <br><br>
+
+            <div class="footer-section">
+
+                <div class="detail-sec">
+
+                    <h4>Company</h4>
+                    <p>About</p>
+                    <p>jobs</p>
+                    <p>For the Records</p>
+                </div>
+                <div class="detail-sec">
+                    <h4>Communities</h4>
+                    <p>For Artists</p>
+                    <p>Developer</p>
+                    <p>Advertsing</p>
+                    <p>Investor</p>
+                </div>
+                <div class="detail-sec">
+                    <h4>Useful Links</h4>
+                    <p>Supports</p>
+                    <p>Free Mobile App</p>
+                </div>
+
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+            <br><br><br>
+            <div class="footer">
+                <div class="line">
+                    <div class="footer-sec-2">
+
+                        <p>Legal</p>
+                        <p>Privacy Center</p>
+                        <p>Privay Policy</p>
+                        <p>Cookies</p>
+                        <p>About Ads</p>
+                        <p>Accessibility</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="album">
+
+        </div>
+        <div class="player">
+            <div class="player-controls">
+                <img src="./assets/player_icon1.png" alt="pic1" class="player-control-icon">
+                <img src="./assets/player_icon2.png" alt="pic1" class="player-control-icon">
+                <img src="./assets/player_icon3.png" alt="pic1" class="player-control-icon"
+                    style="opacity: 1 ; height: 2rem;">
+                <img src="./assets/player_icon4.png" alt="pic1" class="player-control-icon">
+                <img src="./assets/player_icon5.png" alt="pic1" class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range" min="0" max="100" class="progress-bar" step="1">
+                <span class="tot-time">3:33</span>
+            </div>
+
+        </div>
+        <div class="controls"></div>
+    </div>
+    </div>
+
+</body>
+
+</html>
